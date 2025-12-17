@@ -1,3 +1,8 @@
+# Nebula Troubleshooting Flowchart
+這份文件展示了 **18 個步驟的流程圖**，用於工具斷線後的排查流程。  
+流程圖使用 **Mermaid 語法**，GitHub 會自動渲染。
+---
+## 🔄 流程圖
 ```mermaid
 flowchart TD
    A[Disconnect happen] --> B[Copy timestamp/result.dzf]
@@ -21,4 +26,3 @@ flowchart TD
    S --> T[Goto Result Transfer Manager]
    T --> U[Reconnect the tool]
    U --> V[Stop and start download (End)]
-```

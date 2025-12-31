@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD
    A[Disconnect happen] --> B[Copy timestamp/result.dzf]
    B --> C[Search the copied string on Nebula Server.log]
